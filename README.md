@@ -39,13 +39,15 @@ Selamat datang di profil saya! Saya suka bereksperimen dengan teknologi, membang
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MarkXplorer&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MarkXplorer&layout=compact&theme=radical)  
 
+---
 
 ## 🐍 Contribution Snake
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-  <img alt="github contribution snake" src="dist/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarkXplorer/MarkXplorer/main/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarkXplorer/MarkXplorer/main/dist/github-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/MarkXplorer/MarkXplorer/main/dist/github-snake.svg" />
 </picture>
+
 ---
 
 ðŸ’¡ *"Keep exploring, keep building, keep evolving."* ðŸš€
