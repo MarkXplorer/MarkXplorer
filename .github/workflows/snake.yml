@@ -5,19 +5,22 @@ on:
     - cron: "0 */12 * * *"  # jalan tiap 12 jam
   workflow_dispatch:
 
+permissions:
+  contents: write   # penting biar bisa push hasilnya
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Generate Snake (SVG only, cepat)
+      - name: Generate Snake (SVG neon)
         uses: Platane/snk@v3
         with:
           github_user_name: MarkXplorer
-          # List file output. Bisa custom warna & palette per baris.
-          # Opsi valid (resmi): palette=[github|github-dark|github-light], color_snake, color_dots (5 warna, level kontribusi)
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=%2300ff99&color_dots=%23e6fff7,%23b3ffe6,%2375ffc9,%2333ffab,%2300d98b
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%2300ff99&color_dots=%230a1f1a,%231a3b31,%232c5e4f,%233c7f69,%2300ff99
@@ -25,6 +28,6 @@ jobs:
       - name: Commit SVGs
         uses: EndBug/add-and-commit@v9
         with:
-            add: "dist/*.svg"
-            message: "chore: update neon snake (auto)"
-            default_author: github_actions
+          add: "dist/*.svg"
+          message: "chore: update neon snake (auto)"
+          default_author: github_actions
