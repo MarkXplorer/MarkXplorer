@@ -1,11 +1,13 @@
-# Hello World ðŸ‘‹, Iâ€™m Mark Xplorer  
-**AI Engineering Student | RPL Enthusiast | Tech Explorer ðŸš€**  
+![Mark Xplorer Banner](https://via.placeholder.com/1200x300/0d0d0d/00ff99?text=Mark+Xplorer+🚀+|+AI+Engineer+in+Progress)
+
+# Hello World 👋, I’m Mark Xplorer  
+**AI Engineering Student | RPL Enthusiast | Tech Explorer 🚀**  
 
 Selamat datang di profil saya! Saya suka bereksperimen dengan teknologi, membangun proyek AI, dan menjelajahi dunia pemrograman dengan semangat futuristik namun tetap santai.  
 
 ---
 
-## ðŸ’» Skills  
+## 💻 Skills  
 
 **Frontend:**  
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -24,7 +26,7 @@ Selamat datang di profil saya! Saya suka bereksperimen dengan teknologi, membang
 
 ---
 
-## ðŸŒ Connect with me  
+## 🌐 Connect with me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/markxplorer)  
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_markxplorer.io)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@markxplorer.my.id)  
@@ -32,14 +34,14 @@ Selamat datang di profil saya! Saya suka bereksperimen dengan teknologi, membang
 
 ---
 
-## ðŸ“Š My Stats  
+## 📊 My Stats  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarkXplorer&show_icons=true&theme=radical)  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MarkXplorer&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MarkXplorer&layout=compact&theme=radical)  
 
 ---
 
-## ðŸ”„ Bonus â€“ GitHub Action Auto Update  
+## 🔄 Bonus – GitHub Action Auto Update  
 Untuk membuat README ini update otomatis setiap 6 jam, buat file workflow di `.github/workflows/update-readme.yml` dengan isi berikut:  
 
 ```yaml
@@ -62,8 +64,7 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
         git commit -m "Update README"
-        git push
-```
+        git push```
 
 ---
 ðŸ’¡ *"Keep exploring, keep building, keep evolving."* ðŸš€
