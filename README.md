@@ -41,30 +41,4 @@ Selamat datang di profil saya! Saya suka bereksperimen dengan teknologi, membang
 
 ---
 
-## 🔄 Bonus – GitHub Action Auto Update  
-Untuk membuat README ini update otomatis setiap 6 jam, buat file workflow di `.github/workflows/update-readme.yml` dengan isi berikut:  
-
-```yaml
-name: Update README
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Update README
-      run: |
-        echo "Auto-update logic here"
-    - name: Commit changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
-        git commit -m "Update README"
-        git push```
-
----
 ðŸ’¡ *"Keep exploring, keep building, keep evolving."* ðŸš€
