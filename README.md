@@ -6,7 +6,15 @@
 Selamat datang di profil saya! Saya suka bereksperimen dengan teknologi, membangun proyek AI, dan menjelajahi dunia pemrograman dengan semangat futuristik namun tetap santai.  
 
 ---
+<h2>:notes: Now playing <!-- <a href="https://www.last.fm/user/carol-helo"><img alt="last song I've listened to" src="https://badges.lastfm.workers.dev/last-played?user=carol-helo&color=7E3ACE&logoColor=7E3ACE&label=Last+song+I've+listened+to"></a></h2>-->
+</br>
+<a href="https://open.spotify.com/user/31lnn6iv3gugv4kpc2mjusnwv7cq"><img src="https://spotify-now-playing-carol42.vercel.app/api/spotify" alt="Now playing on Spotify" ></a>
 
+<details>
+    <summary>Recently played</summary>
+    <a href="https://open.spotify.com/user/31lnn6iv3gugv4kpc2mjusnwv7cq"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31lnn6iv3gugv4kpc2mjusnwv7cq&unique=true&count=10" alt="Spotify recently played"></a>
+</details>
+---
 ## 💻 Skills  
 
 **Frontend:**  
